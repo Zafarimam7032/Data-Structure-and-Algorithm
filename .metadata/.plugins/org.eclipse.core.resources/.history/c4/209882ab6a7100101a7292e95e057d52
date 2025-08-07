@@ -1,0 +1,17 @@
+package bubblesort;
+
+import java.util.Arrays;
+
+public class BubbleSortExample {
+	
+	public static void main(String[] args) {
+		
+		int [] arr= {2,4,1,8,6,0,10};
+		
+		System.out.println("before sorting: "+Arrays.toString(arr));
+		
+		System.out.println("after sorting: "+Arrays.toString(arr));
+
+	}
+
+}
